@@ -1,0 +1,9 @@
+1. Stworzyć projekty a) sdc-docs b)sdc-auth c)sdc-user d)sdc-mail f)sdc-router
+2. Przekopiowac projekt lukasza i miec w razie czego do podgladu
+3. Stworzyc pliki dla docker-dompose i potworzyc dla projektow b,c i d resty gety ktore cos zwracaja
+4. Uruchomic kompose i zobaczyc czy wszystkie projekty beda istnialy
+
+Kolejne tematy to - Połączenie do db(JPA i msql na poczatek, potem moze Redis lub MongoDb)
+- Jenkins + Jenkins pipeline i stworzenie jobow dla poszczegolnych projektow
+- Ogarniecie troche logiki, stworzenie 3 kont uzytkownika, dawanie dostepu do kont w zaleznosci od typu uzytkownika
+- Stworzenie projektu dla JMS (HiveMq). Stworzenie projektu nadającego HiveMq, Stworzeie w Scali projektu wysyłającego maile
