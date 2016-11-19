@@ -1,22 +1,22 @@
-package com.pilaf.sdc.auth.rest;
+package com.pilaf.sdc.mail.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.pilaf.sdc.auth.model.PrivilegesDO;
-import com.pilaf.sdc.auth.service.AuthService;
+import com.pilaf.sdc.mail.model.MailDO;
+import com.pilaf.sdc.mail.service.MailService;
 
 @RestController
 @RequestMapping("/auth")
-public class AuthRestController {
+public class MailRestController {
 	
 	@Autowired
-	private AuthService authService;
+	private MailService mailService;
 
 	@RequestMapping("/get")
-	public PrivilegesDO getPrivilege() {
-		return authService.getPrivilege();
+	public MailDO getMail() {
+		return mailService.getMail();
 	}
 
 }

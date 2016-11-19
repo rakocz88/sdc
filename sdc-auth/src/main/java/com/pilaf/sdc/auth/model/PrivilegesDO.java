@@ -2,7 +2,7 @@ package com.pilaf.sdc.auth.model;
 
 import java.io.Serializable;
 
-public class PrivilegesTest implements Serializable {
+public class PrivilegesDO implements Serializable {
 
 	/**
 	 * 
@@ -13,11 +13,11 @@ public class PrivilegesTest implements Serializable {
 
 	private String privilege;
 
-	public PrivilegesTest() {
+	public PrivilegesDO() {
 		super();
 	}
 
-	public PrivilegesTest(Long id, String privilege) {
+	public PrivilegesDO(Long id, String privilege) {
 		super();
 		this.id = id;
 		this.privilege = privilege;
